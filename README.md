@@ -26,13 +26,35 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
-- [ ] Describe Middleware?
+  **Answer**
+
+  1. Express is basically a JavaScript framework that sits on top of the NodeJS server.
+
+  2. It allows for the ability to add routing and middleware support.
+
+* [ ] Describe Middleware?
+
+  **Answer**
+
+  Middleware is essentially a series of functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. Middleware then can perform actions such as make changes to requests and response objects, end the request-response cycle, and call the next middleware function in the task.
 
 - [ ] Describe a Resource?
 
-- [ ] What can the API return to help clients know if a request was successful?
+  **Answer**
 
-- [ ] How can we partition our application into sub-applications?
+  A resource is what an API contains, that we can access using endpoints. It's data that we can access to enable and populate our applications.
+
+* [ ] What can the API return to help clients know if a request was successful?
+
+  **Answer**
+
+  APIs can return status codes such as 200 to help clientsk now if a request was successful.
+
+* [ ] How can we partition our application into sub-applications?
+
+  **Answer**
+
+  Express Routers are a way to split an application into sub-applications to make it more modular and easier to maintain.
 
 ## Project Setup
 

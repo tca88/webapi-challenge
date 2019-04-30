@@ -12,3 +12,13 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
+
+const envReader = require("dotenv");
+envReader.config();
+const server = require("./server.js");
+
+const port = process.env.PORT || 5003;
+
+server.listen(port, () => {
+  console.log("\n*** Server Running on http://localhost:5003 ***\n");
+});
